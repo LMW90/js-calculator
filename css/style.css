@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  padding-top: 10%;
+}
+.calculator-body{
+  padding: 1%;
+  width: 20rem;
+  margin: auto;
+  background-color: black;
+  border-radius: 5%;
+}
+.container{
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: flex-end;
+  gap: 1rem;
+}
+input{
+  margin-top: 10%;
+  width: 100%;
+  text-align: right;
+  height: 4rem;
+  font-size: 3rem;
+  font-weight: 900;
+}
+button{
+  flex-grow: 1;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-top: .5rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
